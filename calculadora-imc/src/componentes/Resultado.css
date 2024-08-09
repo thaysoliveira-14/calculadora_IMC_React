@@ -1,0 +1,21 @@
+.resultado-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.resultado {
+    text-align: center;
+}
+
+.resultado > h2 {
+    color: #9400d3;
+}
+
+.classificacao {
+    background-color: #0000004f;
+    padding: 6px 8px;
+    border-radius: 6px;
+}

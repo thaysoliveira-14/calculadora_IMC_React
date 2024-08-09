@@ -1,0 +1,53 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__grupo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.formulario__grupo > label {
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.formulario__grupo__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(88, 88, 88, 0.838);
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.formulario__grupo__input > input {
+    background-color: rgba(88, 88, 88, 0);
+    border: none;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.465);
+    border-radius: 6px;
+    color: #fff;
+    padding-left: 6px;
+}
+
+.formulario__grupo__input > input:focus {
+    outline: none;
+}
+
+.btn-calculadora {
+    background-color: #9400D3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.btn-calculadora:hover {
+    background-color: #fff;
+    color: #9400D3;
+}

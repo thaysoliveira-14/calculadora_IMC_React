@@ -21,6 +21,7 @@ main {
   main {
     gap: 0;
     margin: 10% auto;
+    flex-direction: column-reverse;
   }
 }
 

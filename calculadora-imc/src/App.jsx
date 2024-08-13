@@ -1,6 +1,7 @@
 import Imagem from './assets/imgFitness.svg'
 import './componentes/Imagem.css'
 import Calculadora from './componentes/Calculadora'
+import Footer from './componentes/Footer'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <img src={Imagem} alt="" />
       <Calculadora />
     </main>
+    <Footer />
     </>
   )
 }

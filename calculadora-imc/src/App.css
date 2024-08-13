@@ -20,7 +20,7 @@ main {
 @media screen and (max-width:425px) {
   main {
     gap: 0;
-    margin: 10% auto;
+    margin: 24px auto;
     flex-direction: column-reverse;
   }
 }

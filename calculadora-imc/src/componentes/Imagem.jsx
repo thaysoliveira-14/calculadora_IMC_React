@@ -1,8 +1,8 @@
-import '../../public/imgFitness.svg'
+import '../assets/imgFitness.svg'
 import './Imagem.css'
 
 function Imagem() {
-const img = '../../public/imgFitness.svg'
+const img = '../assets/imgFitness.svg'
 
     return(
         <img src={img} alt="Mulher correndo" />
